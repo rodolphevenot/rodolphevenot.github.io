@@ -1,3 +1,19 @@
 theme: jekyll-theme-minimal
-title: Explorez les ressources
-description: Description de votre site
+title: RV
+description: Une brève description de votre site
+author: Rodolphe Venot
+baseurl: ""
+url: "https://rodolphevenot.github.io"
+
+# Configuration de navigation
+header_pages:
+  - about.md
+  - contact.md
+
+# Configuration des posts de blog
+show_excerpts: true
+
+# Plugins (optionnels)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
